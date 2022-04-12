@@ -1,5 +1,5 @@
-import { api } from './../api';
 import { useQuery, UseQueryOptions } from 'react-query';
+import { api } from '../api';
 
 type User = {
   id: string;
